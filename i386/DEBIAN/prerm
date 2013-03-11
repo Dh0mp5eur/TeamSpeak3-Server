@@ -1,0 +1,5 @@
+#!/bin/bash
+DIR="teamspeak3-server_linux-x86"
+rm -f /usr/bin/teamspeak3-server
+rm -f /etc/init.d/ts3server
+rm -rf /opt/$DIR/*

@@ -1,0 +1,5 @@
+#!/bin/bash
+DIR="teamspeak3-server_linux-amd64"
+ 
+ln -s /opt/$DIR/ts3server_minimal_runscript.sh /usr/bin/teamspeak3-server
+ln -s /opt/$DIR/ts3server_startscript.sh /etc/init.d/ts3server
