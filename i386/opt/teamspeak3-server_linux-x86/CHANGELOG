@@ -9,6 +9,12 @@
            ! Important - Take note!
 =============================================================
 
+=== Server Release 3.0.7.1 18 March 2013
+- fixed hostinfo does not work with no running virtualserver
+- fixed server hanging after serverstop (and other) commands
+- fixed temporary passwords wont work where channel names include / or \
+* improved indentation of server query help file
+
 === Server Release 3.0.7 4 March 2013
  ! extended max possible permissions, newer client will be needed to use
    this server release
